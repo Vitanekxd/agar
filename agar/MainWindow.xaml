@@ -1,0 +1,11 @@
+﻿<Window x:Class="AgarioClone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Agario Clone" Width="600" Height="400"
+        Loaded="Window_Loaded">
+
+    <Canvas Name="canvas" Background="LightGray" MouseMove="Canvas_MouseMove">
+        <!-- Player -->
+        <Ellipse Name="player" Width="40" Height="40" Fill="Blue"/>
+    </Canvas>
+</Window>
